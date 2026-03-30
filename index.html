@@ -934,42 +934,43 @@ uspjehu tima i poduzeća.
             </div>
           </div>
 
-         <form action="https://formspree.io/f/mvzvkroe" method="POST" data-aos="fade-up" data-aos-delay="200"> <input type="hidden" name="_next" value="https://ivicasanduk.github.io/draz/thanks.html"> <div class="row gy-4"> <input type="hidden" name="_captcha" value="false">
+         <form action="https://formspree.io/f/mvzvkroe" method="POST" data-aos="fade-up" data-aos-delay="200">
+  <!-- Redirektanje na stranicu zahvale -->
+  <input type="hidden" name="_next" value="https://ivicasanduk.github.io/draz/thanks.html">
+  <!-- Onemogući captcha -->
+  <input type="hidden" name="_captcha" value="false">
   
   <div class="row gy-4">
-    <!-- Polja forme... -->
+    <!-- Polje za ime -->
+    <div class="col-md-6">
+      <label for="name-field" class="pb-2">Vaše Ime</label>
+      <input type="text" name="name" id="name-field" class="form-control" required>
+    </div>
+
+    <!-- Polje za email -->
+    <div class="col-md-6">
+      <label for="email-field" class="pb-2">Vaš E-mail</label>
+      <input type="email" class="form-control" name="email" id="email-field" required>
+    </div>
+
+    <!-- Polje za predmet -->
+    <div class="col-md-12">
+      <label for="subject-field" class="pb-2">Predmet</label>
+      <input type="text" class="form-control" name="subject" id="subject-field" required>
+    </div>
+
+    <!-- Polje za poruku -->
+    <div class="col-md-12">
+      <label for="message-field" class="pb-2">Poruka</label>
+      <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+    </div>
+
+    <!-- Gumb za slanje -->
+    <div class="col-md-12">
+      <button type="submit" class="btn btn-primary">POŠALJI</button>
+    </div>
   </div>
-  
 </form>
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Vaše Ime</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Vaš E-mail</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Predmet</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Poruka</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                
-
-                  <button type="submit">POŠALJI</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
 
         </div>
 
